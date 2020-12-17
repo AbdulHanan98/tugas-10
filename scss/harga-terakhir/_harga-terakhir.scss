@@ -1,0 +1,17 @@
+.harga-terakhir {
+    width: 80%;
+    margin: 0;
+
+    .judul-harga-terakhir {
+        margin-left: 100px;
+        border-bottom: solid 1px blue;
+
+        h3 span {
+            margin-left: 100px;
+        }
+
+        .title-harga>span {
+            float: right;
+        }
+    }
+}

@@ -1,0 +1,126 @@
+header {
+    .up-header {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        display: flex;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        color: #fff;
+
+        .logo-up-header {
+            width: 100px;
+            margin-left: 60px;
+        }
+
+        .kanan-up-header {
+            width: 100%;
+            height: 70px;
+            margin-top: 10px;
+            margin-left: 70px;
+            color: #fff;
+            align-items: center;
+            justify-content: space-between;
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding-top: 10px;
+                overflow: hidden;
+
+                li {
+                    list-style-type: none;
+                    margin-right: 20px;
+
+                    a {
+                        font-size: 15px;
+                        font-weight: bold;
+                        color: #fff;
+                        display: inline-block;
+                        font-size: 18px;
+                        font-weight: 400;
+                        text-decoration: none;
+                        color: black;
+                        text-align: center;
+                        padding: 14px 16px;
+
+                        &:hover {
+                            background-color: #5656c2;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        &>.kanan-up-header>ul>li {
+            float: left;
+        }
+    }
+
+    nav {
+        .menu-header {
+            width: 100%;
+            margin: 0 auto;
+            position: relative;
+            display: flex;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            background-color: blue;
+            color: #fff;
+
+            .bar {
+                width: 100%;
+                height: 70px;
+                margin-left: 70px;
+                color: #fff;
+                align-items: center;
+
+                ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding-top: 10px;
+                    overflow: hidden;
+
+                    li {
+                        list-style-type: none;
+                        margin-right: 20px;
+                        a {
+                            font-size: 15px;
+                            font-weight: bold;
+                            color: #fff;
+                            display: inline-block;
+                            font-size: 18px;
+                            font-weight: 400;
+                            text-decoration: none;
+                            color: black;
+                            text-align: center;
+                            padding: 14px 16px;
+                        
+
+                            &:hover {
+                                background-color: #5656c2;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+        &>.menu-header>.bar>ul>li {
+            float: left;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,162 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header .up-header {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  color: #fff;
+}
+
+header .up-header .logo-up-header {
+  width: 100px;
+  margin-left: 60px;
+}
+
+header .up-header .kanan-up-header {
+  width: 100%;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 70px;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .up-header .kanan-up-header ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+header .up-header .kanan-up-header ul li {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+header .up-header .kanan-up-header ul li a {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+header .up-header .kanan-up-header ul li a:hover {
+  background-color: #5656c2;
+}
+
+header .up-header > .kanan-up-header > ul > li {
+  float: left;
+}
+
+header nav .menu-header {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: blue;
+  color: #fff;
+}
+
+header nav .menu-header .bar {
+  width: 100%;
+  height: 70px;
+  margin-left: 70px;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .menu-header .bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+header nav .menu-header .bar ul li {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+header nav .menu-header .bar ul li a {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+header nav .menu-header .bar ul li a:hover {
+  background-color: #5656c2;
+}
+
+header nav > .menu-header > .bar > ul > li {
+  float: left;
+}
+
+.harga-terakhir {
+  width: 80%;
+  margin: 0;
+}
+
+.harga-terakhir .judul-harga-terakhir {
+  margin-left: 100px;
+  border-bottom: solid 1px blue;
+}
+
+.harga-terakhir .judul-harga-terakhir h3 span {
+  margin-left: 100px;
+}
+
+.harga-terakhir .judul-harga-terakhir .title-harga > span {
+  float: right;
+}
+
+.gambar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url("https://jfx.co.id//storage/settings/September2020/Fm57a90xl7DrqkyJYHdA.jpg");
+}
+
+.gambar .isi-gambar {
+  padding: 120px;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
